@@ -15,3 +15,10 @@ A dockerized terraform runtime configured for k8s+helm.
   ```
   make plan
   ```
+
+* Argo
+  ```
+  minikube dashboard &
+
+  kubectl port-forward svc/aaargo-server 2746:2746
+  ```
